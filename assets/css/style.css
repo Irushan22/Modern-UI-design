@@ -54,3 +54,7 @@
   font-size: 120px;
   line-height: 0.9;
 }
+.modernUI-video-main-text p {
+  font-family: "Antic Slab", serif;
+  font-size: 30px;
+}
