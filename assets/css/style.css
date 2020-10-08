@@ -38,6 +38,7 @@
 .modernUI-body-social ul li a {
   color: #fff;
 }
+
 /* section one */
 .bgv_overlay_img {
   width: 100%;
@@ -52,33 +53,6 @@
   color: #fff;
   margin-top: 36vh;
 }
-.modernUI-video {
-  padding-left: 0;
-  padding-right: 0;
-}
-.khkjjm {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-.scas {
-  position: absolute;
-  width: calc(100vh * (1000 / 562)); /*  video width / height  */
-  height: calc(100vw * (562 / 1000)); /*  video height / width  */
-  min-width: 100%;
-  min-height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.bad-bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-}
-
 .modernUI-video-main-text h1 {
   font-family: "Oswald", sans-serif;
   font-size: 120px;
@@ -89,6 +63,32 @@
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 100;
+}
+.modernUI-video {
+  padding-left: 0;
+  padding-right: 0;
+}
+.video-main-wp {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.video-wrapper {
+  position: absolute;
+  width: calc(100vh * (1000 / 562)); /*  video width / height  */
+  height: calc(100vw * (562 / 1000)); /*  video height / width  */
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bg-video-responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
