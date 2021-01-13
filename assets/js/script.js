@@ -1,3 +1,6 @@
+var scene = document.getElementById('scen');
+var parallaxInstance = new Parallax(scene);
+
 $(".testimonial-wrapper .owl-carousel").owlCarousel({
   loop: true,
   margin: 40,
